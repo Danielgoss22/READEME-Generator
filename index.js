@@ -68,7 +68,7 @@ function init() {
     .then(function (userInfo) {
       const readMeTemplate = generateMarkdown(userInfo);
       console.log(readMeTemplate);
-      fs.writeFile("README3.md", readMeTemplate, function (err) {
+      fs.writeFile("README1.md", readMeTemplate, function (err) {
         err
           ? console.log("An error has taken place.")
           : console.log("Your information has been written to the file.");

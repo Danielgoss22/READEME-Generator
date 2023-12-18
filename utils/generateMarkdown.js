@@ -31,7 +31,7 @@ function renderLicenseSection(license) {
   if (license === "none") {
     return "";
   } else {
-    return "## License I am using ${data.license}";
+    return "## License";
   }
 }
 
@@ -55,7 +55,7 @@ ${renderLicenseLink(data.license)}
   
 
 ## Installation
-${data.instalation}
+${data.installation}
 
 
 
@@ -63,9 +63,8 @@ ${data.instalation}
 ${data.usage}
 
 
-##License
-I am using ${data.license}
-
+${renderLicenseSection(data.license)}
+${data.license}
 
 
 

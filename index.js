@@ -17,8 +17,8 @@ function init() {
         name: "description",
       },
       {
-        type: "input",
-        message: "What would you like in your Table of Contents?",
+        type: "confirm",
+        message: "Would you like to add a Table of Contents?",
         name: "tableOfContent",
       },
       {

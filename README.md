@@ -9,3 +9,5 @@
 -I am grateful to the tutor I used, Juan Delgado, because he was helpful in getting me to realize that I was overthinking my code and making the entire process mush more difficult than it should be.
 
 ## Walk-Through Video
+
+https://drive.google.com/file/d/1zBJ-hAXU2uFwO1wlR0i5fGj8TKX3MREH/view
